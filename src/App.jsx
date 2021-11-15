@@ -3,6 +3,7 @@ import './Style/fonts.css';
 import { GlobalStyle } from './Style/Utility.style';
 import Intro from './Components/Intro/Intro';
 import Stack from './Components/Stack/Stack';
+import Contact from './Components/Contact/Contact';
 import DarkModeContext from './Hooks/useDarkMode';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <GlobalStyle darkMode={darkMode} />
       <Intro />
       <Stack />
+      <Contact />
     </div>
   );
 }
