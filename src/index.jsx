@@ -1,14 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import { CssBaseline } from '@nextui-org/react';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ContextWrapper from './Components/ContextWrapper';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CssBaseline />
+    <ContextWrapper>
+      <App />
+    </ContextWrapper>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 
 // If you want to start measuring performance in your app, pass a function
