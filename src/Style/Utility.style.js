@@ -28,36 +28,41 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const FlexContainer = styled.main`
-    display: flex;
-    justify-content: ${(props) => props.justify};
-    align-items: ${(props) => props.align};
-    flex-direction: ${(props) => (props.column ? 'column' : 'row')};
-    height: ${(props) => (props.height ? props.height : 'auto')};
-    width: ${(props) => (props.width ? props.width : 'auto')};
-    gap: ${(props) => (props.gap ? props.gap : '0')};
-    padding: ${(props) => (props.padding ? props.padding : '0px')};;
+  display: flex;
+  justify-content: ${(props) => props.justify};
+  align-items: ${(props) => props.align};
+  flex-direction: ${(props) => (props.column ? 'column' : 'row')};
+  height: ${(props) => (props.height ? props.height : 'auto')};
+  width: ${(props) => (props.width ? props.width : 'auto')};
+  gap: ${(props) => (props.gap ? props.gap : '0')};
+  padding: ${(props) => (props.padding ? props.padding : '0px')};
 `;
 
 export const NavArrow = styled.button`
-    position: absolute;
-    bottom: 20px;
-    width: 40px;
-    height: 40px;
-    border: solid 2px white;
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    margin: auto;
-    background: none;
-    cursor: pointer;
-    transition: all 0.15s ease-in-out;
+  position: absolute;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  border: solid 2px white;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin: auto;
+  background: none;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
 
-    &:hover{
-        background: white;
-        transform: translateY(-8px);
+  &:hover{
+    background: white;
+    transform: translateY(-8px);
 
-        svg{
-            stroke: #5B9279;
-        }
+    svg{
+      stroke: #5B9279;
     }
+  }
+
+  &:focus{
+    background: #8FC8AD;
+    transform: translateY(-8px);
+  }
 `;

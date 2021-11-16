@@ -67,6 +67,10 @@ export const SocialCont = styled.a`
         transform: translateY(-3px);
     }
 
+    &:focus{
+        outline: 2px solid #8FC8AD;
+    }
+
     @media (max-width: 500px) {
         width: 30px;
         height: 30px;
