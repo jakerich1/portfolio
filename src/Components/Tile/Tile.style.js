@@ -7,8 +7,8 @@ export const TileCont = styled(Tilt)`
     place-items: center;
     width: 100%;
     height: 150px;
-    border-radius: 16px;
-    background: white; 
+    border-radius: 4px;
+    background: #f2f2f2; 
     background-image: ${(props) => (props.src ? `url(${props.src})` : '')};
     background-position: center;
     background-size: ${(props) => (props.size ? props.size : 'cover')};
@@ -37,7 +37,7 @@ export const TileCont = styled(Tilt)`
         text-align: center;
         font-weight: 500;
         font-size: 21px;
-        border-radius: 16px;
+        border-radius: 4px;
         background-color: #FFFFFF;
 
         @media (max-width: 550px) {
@@ -54,7 +54,7 @@ export const TileCont = styled(Tilt)`
     &:hover{
         &::before {
             content: ${(props) => (props.size ? `"${props.alt}"` : '""')};;
-            background-color: #FFFFFFCC;
+            background-color: #cecece;
         }
     }
 `;

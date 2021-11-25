@@ -11,9 +11,9 @@ export const IntroImage = styled.img`
     width: 30vw;
     height: 30vw;
     border-radius: 50%;
-    color: #000000;
+    color: #cecece;
     text-align: center;
-    box-shadow: 0px 0px 0px 6px #5B9279, 0px 0px 0px 8px #FFFFFF;
+    box-shadow: 0px 0px 0px 6px #212529, 0px 0px 0px 8px #cecece;
 
     @media (max-width: 500px) {
         width: 50vw;
@@ -28,8 +28,8 @@ export const IntroImage = styled.img`
 
 export const NameTitle = styled.h1`
     display: block;
-    font-family: 'Bebas Neue', cursive;
-    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #cecece;
     font-size: calc((75vw - 4.5rem) / 7);
     letter-spacing: 3px;
     line-height: calc((75vw - 4.5rem) / 7);
@@ -60,7 +60,7 @@ export const SocialCont = styled.a`
     width: 40px;
     height: 40px;
     border-radius: 8px;
-    background: white;
+    background: #cecece;
     transition: all 0.15s ease-in-out;
 
     &:hover{
@@ -68,7 +68,7 @@ export const SocialCont = styled.a`
     }
 
     &:focus{
-        outline: 2px solid #8FC8AD;
+        outline: 2px solid #4870a1;
     }
 
     @media (max-width: 500px) {
@@ -78,6 +78,6 @@ export const SocialCont = styled.a`
 
     svg{
         display: block;
-        fill: #5B9279;
+        fill: none;
     }
 `;

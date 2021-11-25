@@ -20,6 +20,7 @@ function Contact() {
       setValid(true);
 
       if (valid) {
+        // eslint-disable-next-line no-console
         console.log('test');
         setSubmitted(true);
       }
@@ -30,7 +31,7 @@ function Contact() {
     <ContactWrap justify="center" align="center" height="100vh">
       <ContactCard column>
         <CardHead justify="center" align="center" padding="0.5em">
-          Get In Contact
+          Get In Touch
         </CardHead>
         <CardBody padding="2em">
           <Form onSubmit={handleSubmit}>

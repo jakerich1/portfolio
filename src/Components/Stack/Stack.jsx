@@ -43,7 +43,7 @@ function Stack() {
         <Tile source="./images/logo/Expressjs.png" alt="Express" span size="105%" />
         <Tile source="./images/logo/aws-s3.svg" alt="AWS S3" size="65%" />
       </Grid>
-      <NavArrow onClick={() => { delayNav('#stack'); }}>
+      <NavArrow onClick={() => { delayNav('#projects'); }}>
         <IconArrowNarrowDown color="white" stroke={1.4} strokeLinejoin="miter" />
       </NavArrow>
     </StackWrap>

@@ -22,7 +22,7 @@ export const GlobalStyle = createGlobalStyle`
     scroll-behavior: smooth;
   }
   body {
-    background: ${(props) => (props.darkMode ? '#5B9279' : '#5B9279')} !important;
+    background: ${(props) => (props.darkMode ? '#212529' : '#212529')} !important;
     min-height: 100%;
   }
 `;
@@ -43,7 +43,7 @@ export const NavArrow = styled.button`
   bottom: 20px;
   width: 40px;
   height: 40px;
-  border: solid 2px white;
+  border: solid 2px #cecece;
   border-radius: 50%;
   display: grid;
   place-items: center;
@@ -53,16 +53,16 @@ export const NavArrow = styled.button`
   transition: all 0.15s ease-in-out;
 
   &:hover{
-    background: white;
+    background: #32373d;
     transform: translateY(-8px);
 
     svg{
-      stroke: #5B9279;
+      stroke: #cecece;
     }
   }
 
   &:focus{
-    background: #8FC8AD;
+    background: #32373d;
     transform: translateY(-8px);
   }
 `;

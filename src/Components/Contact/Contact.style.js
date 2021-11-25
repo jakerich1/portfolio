@@ -1,12 +1,11 @@
 /* eslint-disable import/prefer-default-export */
 import styled from 'styled-components';
 import {
-  IconCheck,
+  IconCheck, IconBrowser,
 } from '@tabler/icons';
 import { FlexContainer } from '../../Style/Utility.style';
 
 export const ContactWrap = styled(FlexContainer)`
-    perspective: 1000px;
     position: relative;
     height: auto;
     min-height: 100vh;
@@ -18,10 +17,8 @@ export const ContactWrap = styled(FlexContainer)`
 `;
 
 export const ContactCard = styled(FlexContainer)`
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     width: 100%;
     max-width: 800px;
-    border-radius: 8px;
 `;
 
 export const CardHead = styled(FlexContainer)`
@@ -29,10 +26,8 @@ export const CardHead = styled(FlexContainer)`
     font-size: 94px;
     line-height: 94px;
     letter-spacing: 3px;
-    color: #8FC8AD;
-    background: #436e5b;
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px; 
+    color: #212529;
+    background: #f0f0f0;
 
     @media (max-width: 1070px) { 
         font-size: calc((50vw - 4.5rem) / 5);
@@ -52,8 +47,6 @@ export const CardHead = styled(FlexContainer)`
 
 export const CardBody = styled(FlexContainer)`
     background: white;
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 8px; 
 
     @media (max-width: 648px) { 
         padding: 1em;
@@ -128,6 +121,12 @@ export const Icon = styled(IconCheck)`
     padding: 4px;
 `;
 
+export const IconBrowse = styled(IconBrowser)`
+    background: #5b9279;
+    border-radius: 50%;
+    padding: 4px;
+`;
+
 export const Submit = styled.button`
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -135,10 +134,10 @@ export const Submit = styled.button`
     align-items: center;
     width: 100%;
     height: 50px;
-    background: #8FC8AD;
+    background: #212529;
     border-radius: 8px;
     border: none;
-    color: #436e5b;
+    color: white;
     cursor: pointer;
     transition: all 0.15s ease-in-out;
 

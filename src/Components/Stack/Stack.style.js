@@ -7,14 +7,14 @@ export const StackWrap = styled(FlexContainer)`
     position: relative;
     height: auto;
     min-height: 100vh;
-    background: #8FC8AD;
+    background: none;
     padding: 2em;
 `;
 
 export const Grid = styled.div`
     display: grid;
     grid-template-columns: repeat(4, 150px);
-    grid-gap: 0.5em;
+    grid-gap: 0.75em;
     transition: all 1s ease-in-out;
     transform: ${(props) => (props.inView ? 'rotateX(0deg)' : 'rotateX(93deg)')};
 
@@ -37,5 +37,5 @@ export const Title = styled.h1`
     letter-spacing: 3px;
     line-height: calc((75vw - 5.5rem) / 7);
     font-weight: 500;
-    color: #436e5b;
+    color: #cecece;
 `;
