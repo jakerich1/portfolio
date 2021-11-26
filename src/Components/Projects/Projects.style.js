@@ -3,26 +3,24 @@ import styled from 'styled-components';
 import {
   IconBrandGithub, IconBrowser,
 } from '@tabler/icons';
-import { FlexContainer } from '../../Style/Utility.style';
 
-export const ProjectWrap = styled(FlexContainer)`
-    height: auto;
-    flex-direction: column;
+export const ProjectWrap = styled.div`
+    display: grid;
+    justify-items: center;
     gap: 5em;
-    align-items: center;
-    justify-content: center;
-    padding: 5em 1em 1em 1em;
+    height: auto;
+    padding: 5em 3em 1em 3em;
 
     @media (max-width: 1200px) {
-        flex-direction: row;
-        align-items: stretch;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
         gap: 2em;
     }
 
     @media (max-width: 750px) {
-        flex-direction: column;
-        align-items: center;
+        grid-template-columns: auto;
         gap: 4em;
+        padding: 5em 1em 1em 1em;
     }
 `;
 

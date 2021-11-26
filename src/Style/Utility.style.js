@@ -27,7 +27,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 `;
 
-export const FlexContainer = styled.main`
+export const FlexContainer = styled.div`
   display: flex;
   justify-content: ${(props) => props.justify};
   align-items: ${(props) => props.align};

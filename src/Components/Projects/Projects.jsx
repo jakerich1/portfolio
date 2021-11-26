@@ -21,10 +21,10 @@ function Projects() {
               assets via Adobe xd from their lead designer.
             </p>
             <div>
-              <ReposLink href="#">
+              <ReposLink target="_blank" href="https://github.com/jakerich1/certi-dev">
                 Live page
               </ReposLink>
-              <ReposLink href="#">
+              <ReposLink target="_blank" href="https://github.com/jakerich1/certi-dev">
                 Repository
               </ReposLink>
             </div>
@@ -33,26 +33,22 @@ function Projects() {
         <Carousel transitionTime="1500" useKeyboardArrows autoPlay interval="4000" infiniteLoop showThumbs={false}>
           <div>
             <img alt="certi intro" src="./images/certi/certi-intro.png" />
-            <p className="legend">Intro screen</p>
           </div>
           <div>
             <img alt="certi app view" src="./images/certi/certi-app-view.png" />
-            <p className="legend">App view</p>
           </div>
           <div>
             <img alt="certi signup" src="./images/certi/certi-signup.png" />
-            <p className="legend">Sign up</p>
           </div>
           <div>
             <img alt="certi footer" src="./images/certi/certi-footer.png" />
-            <p className="legend">Footer</p>
           </div>
         </Carousel>
       </Project>
 
       <Project>
         <Card>
-          <CardImage tabIndex="0" alt="Certi" src="./images/odinbook/odinbook.png" />
+          <CardImage tabIndex="0" alt="Odinbook" src="./images/odinbook/odinbook.png" />
           <CardInfo>
             <p>
               OdinBook is my capstone piece for The Odin Project.
@@ -63,7 +59,7 @@ function Projects() {
               <ReposLink target="_blank" href="https://jakerich1.github.io/odinbook">
                 Live page
               </ReposLink>
-              <ReposLink href="#">
+              <ReposLink target="_blank" href="https://github.com/jakerich1/odinbook">
                 Repository
               </ReposLink>
             </div>
@@ -72,22 +68,111 @@ function Projects() {
         <Carousel transitionTime="1500" useKeyboardArrows autoPlay interval="4000" infiniteLoop showThumbs={false}>
           <div>
             <img alt="odinbook log in" src="./images/odinbook/Log-in.png" />
-            <p className="legend">Log in screen</p>
           </div>
           <div>
             <img alt="odinbook profile" src="./images/odinbook/Profile.png" />
-            <p className="legend">Profile view</p>
           </div>
           <div>
             <img alt="odinbook timeline" src="./images/odinbook/Timeline.png" />
-            <p className="legend">Timeline view</p>
           </div>
           <div>
             <img alt="odinbook mobile view" src="./images/odinbook/MobileView.png" />
-            <p className="legend">Mobile view</p>
           </div>
         </Carousel>
       </Project>
+
+      <Project>
+        <Card>
+          <CardImage tabIndex="0" alt="Postcode Heatmap" src="./images/postcode/postcode.png" />
+          <CardInfo>
+            <p>
+              Work in progress. This tool was built with vanilla JS and is
+              used to generate a customizable heat-map of UK postcode areas.
+              <br />
+              <br />
+              I plan on refactoring this tool with React and adding authentication to
+              allow for saved maps and styling.
+            </p>
+            <div>
+              <ReposLink target="_blank" href="https://jakerich1.github.io/Postcode-Heatmap/">
+                Live page
+              </ReposLink>
+              <ReposLink target="_blank" href="https://github.com/jakerich1/Postcode-Heatmap">
+                Repository
+              </ReposLink>
+            </div>
+          </CardInfo>
+        </Card>
+        <Carousel transitionTime="1500" useKeyboardArrows autoPlay interval="4000" infiniteLoop showThumbs={false}>
+          <div>
+            <img alt="postcode light" src="./images/postcode/light.png" />
+          </div>
+          <div>
+            <img alt="postcode dark" src="./images/postcode/dark.png" />
+          </div>
+        </Carousel>
+      </Project>
+
+      <Project>
+        <Card>
+          <CardImage tabIndex="0" alt="TNW Replication" src="./images/TNW/TNW.png" />
+          <CardInfo>
+            <p>
+              This was project was part of the HTML & CSS practice in The Odin Project.
+              The task was to replicate the front page, and it&apos;s responsiveness, of TNW
+              with vanilla CSS.
+            </p>
+            <div>
+              <ReposLink target="_blank" href="https://jakerich1.github.io/TOP-TNW/">
+                Live page
+              </ReposLink>
+              <ReposLink target="_blank" href="https://github.com/jakerich1/TOP-TNW/">
+                Repository
+              </ReposLink>
+            </div>
+          </CardInfo>
+        </Card>
+        <Carousel transitionTime="1500" useKeyboardArrows autoPlay interval="4000" infiniteLoop showThumbs={false}>
+          <div>
+            <img alt="TNW Main" src="./images/TNW/Main.png" />
+          </div>
+          <div>
+            <img alt="TW Second" src="./images/TNW/Second.png" />
+          </div>
+          <div>
+            <img alt="TNW Third" src="./images/TNW/third.png" />
+          </div>
+        </Carousel>
+      </Project>
+
+      <Project>
+        <Card>
+          <CardImage tabIndex="0" alt="Portfolio" src="./images/portfolio/portfolio.png" />
+          <CardInfo>
+            <p>
+              This portfolio is built on React and styled with Styled Components.
+              The very simple back end makes use of NodeJS with MongoDB.
+            </p>
+            <div>
+              <ReposLink target="_blank" href="https://jakerich1.github.io/portfolio">
+                Live page
+              </ReposLink>
+              <ReposLink target="_blank" href="https://github.com/jakerich1/portfolio">
+                Repository
+              </ReposLink>
+            </div>
+          </CardInfo>
+        </Card>
+        <Carousel transitionTime="1500" useKeyboardArrows autoPlay interval="4000" infiniteLoop showThumbs={false}>
+          <div>
+            <img alt="Portfolio" src="./images/portfolio/portfolio.png" />
+          </div>
+          <div>
+            <img alt="portfolio stack" src="./images/portfolio/stack.png" />
+          </div>
+        </Carousel>
+      </Project>
+
     </ProjectWrap>
   );
 }
