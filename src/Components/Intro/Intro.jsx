@@ -20,7 +20,7 @@ function Intro() {
       <FlexContainer column={size.width < 500 ? 1 : 0} align="center" gap="2em">
         <FlexContainer column justify="center">
           <NameTitle>Jacob Riches</NameTitle>
-          <SubHead>Front-end web developer</SubHead>
+          <SubHead>Frontend web developer</SubHead>
           <FlexContainer align="center" gap="0.75em" justify={size.width < 500 ? 'center' : 'flex-start'} padding="10px 0 0 0">
             <SocialCont href="https://uk.linkedin.com/in/jacob-riches" target="_blank">
               <IconBrandLinkedin size={size.width > 500 ? 36 : 24} color="#212529" stroke={1.4} strokeLinejoin="miter" />
