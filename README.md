@@ -1,5 +1,5 @@
 
-# Personal Portfoli
+# Personal Portfolio
 
 [Live view](https://jakerich1.github.io/TOP-TNW/)
 ## Tech Stack

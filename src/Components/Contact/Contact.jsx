@@ -1,5 +1,6 @@
 import { React, useState } from 'react';
 import ClipLoader from 'react-spinners/ClipLoader';
+import { postMessage } from '../../API/api';
 import {
   ContactWrap, ContactCard, CardHead, Submit, CardBody, Form, Input, Comment, Success, Icon,
 } from './Contact.style';
@@ -8,7 +9,7 @@ function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [comment, setComment] = useState('');
-  const [valid, setValid] = useState(true);
+  const [error, setError] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
@@ -17,13 +18,18 @@ function Contact() {
 
     if (!submitting) {
       setSubmitting(true);
-      setValid(true);
+      setError('');
 
-      if (valid) {
-        // eslint-disable-next-line no-console
-        console.log('test');
-        setSubmitted(true);
-      }
+      postMessage()
+        .then(() => {
+          setSubmitting(false);
+          setSubmitted(true);
+        })
+        .catch((err) => {
+          setSubmitting(false);
+          setSubmitted(false);
+          setError(err.message);
+        });
     }
   };
 
@@ -52,6 +58,7 @@ function Contact() {
                   <ClipLoader color="white" loading={submitting} size={34} />
                 </Submit>
               )}
+            {error || ''}
           </Form>
         </CardBody>
       </ContactCard>

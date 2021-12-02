@@ -4,7 +4,7 @@ import {
 } from '@tabler/icons';
 import { FlexContainer, NavArrow } from '../../Style/Utility.style';
 import {
-  IntroImage, NameTitle, SubHead, SocialCont, IntroWrap,
+  NameTitle, SubHead, SocialCont, IntroWrap,
 } from './Intro.style';
 import useWindowSize from '../../Hooks/useWindowSize';
 
@@ -18,7 +18,6 @@ function Intro() {
   return (
     <IntroWrap justify="center" align="center" height="100vh" padding={size.width < 500 ? '0.5em' : '2em'}>
       <FlexContainer column={size.width < 500 ? 1 : 0} align="center" gap="2em">
-        <IntroImage alt="Jacob Riches" src="./images/profile.jpg" />
         <FlexContainer column justify="center">
           <NameTitle>Jacob Riches</NameTitle>
           <SubHead>Front-end web developer</SubHead>
