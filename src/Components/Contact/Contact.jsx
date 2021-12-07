@@ -20,7 +20,7 @@ function Contact() {
       setSubmitting(true);
       setError('');
 
-      postMessage()
+      postMessage(name, email, comment)
         .then(() => {
           setSubmitting(false);
           setSubmitted(true);
