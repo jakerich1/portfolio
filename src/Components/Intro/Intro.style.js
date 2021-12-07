@@ -1,5 +1,6 @@
 /* eslint-disable import/prefer-default-export */
 import styled from 'styled-components';
+import { motion } from 'framer-motion';
 import { FlexContainer } from '../../Style/Utility.style';
 
 export const IntroWrap = styled(FlexContainer)`
@@ -26,7 +27,7 @@ export const IntroImage = styled.img`
     }
 `;
 
-export const NameTitle = styled.h1`
+export const NameTitle = styled(motion.h1)`
     display: block;
     font-family: 'Bebas Neue', sans-serif;
     color: #cecece;
@@ -53,7 +54,7 @@ export const SubHead = styled(NameTitle)`
     }
 `;
 
-export const SocialCont = styled.a`
+export const SocialCont = styled(motion.a)`
     display: inline-block;
     display: grid;
     place-items: center;
