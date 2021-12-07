@@ -11,4 +11,4 @@ const apiInstance = axios.create({
   },
 });
 
-export const postMessage = async (name, email, comment) => apiInstance.post('/', { body: { name, email, comment } });
+export const postMessage = async (name, email, comment) => apiInstance.post('/', { data: { name, email, comment } });
