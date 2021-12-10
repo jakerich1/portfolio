@@ -21,7 +21,7 @@ function Projects() {
               assets via Adobe xd from their lead designer.
             </p>
             <div>
-              <ReposLink target="_blank" href="https://github.com/jakerich1/certi-dev">
+              <ReposLink target="_blank" href="https://jakerich1.github.io/certi-dev/">
                 Live page
               </ReposLink>
               <ReposLink target="_blank" href="https://github.com/jakerich1/certi-dev">
