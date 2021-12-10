@@ -32,16 +32,16 @@ function Projects() {
         </Card>
         <Carousel transitionTime="1500" useKeyboardArrows autoPlay interval="4000" infiniteLoop showThumbs={false}>
           <div>
-            <img alt="certi intro" src="./images/certi/certi-intro.png" />
+            <img loading="lazy" alt="certi intro" src="./images/certi/certi-intro.png" />
           </div>
           <div>
-            <img alt="certi app view" src="./images/certi/certi-app-view.png" />
+            <img loading="lazy" alt="certi app view" src="./images/certi/certi-app-view.png" />
           </div>
           <div>
-            <img alt="certi signup" src="./images/certi/certi-signup.png" />
+            <img loading="lazy" alt="certi signup" src="./images/certi/certi-signup.png" />
           </div>
           <div>
-            <img alt="certi footer" src="./images/certi/certi-footer.png" />
+            <img loading="lazy" alt="certi footer" src="./images/certi/certi-footer.png" />
           </div>
         </Carousel>
       </Project>
@@ -67,16 +67,16 @@ function Projects() {
         </Card>
         <Carousel transitionTime="1500" useKeyboardArrows autoPlay interval="4000" infiniteLoop showThumbs={false}>
           <div>
-            <img alt="odinbook log in" src="./images/odinbook/Log-in.png" />
+            <img loading="lazy" alt="odinbook log in" src="./images/odinbook/Log-in.png" />
           </div>
           <div>
-            <img alt="odinbook profile" src="./images/odinbook/Profile.png" />
+            <img loading="lazy" alt="odinbook profile" src="./images/odinbook/Profile.png" />
           </div>
           <div>
-            <img alt="odinbook timeline" src="./images/odinbook/Timeline.png" />
+            <img loading="lazy" alt="odinbook timeline" src="./images/odinbook/Timeline.png" />
           </div>
           <div>
-            <img alt="odinbook mobile view" src="./images/odinbook/MobileView.png" />
+            <img loading="lazy" alt="odinbook mobile view" src="./images/odinbook/MobileView.png" />
           </div>
         </Carousel>
       </Project>
@@ -105,10 +105,10 @@ function Projects() {
         </Card>
         <Carousel transitionTime="1500" useKeyboardArrows autoPlay interval="4000" infiniteLoop showThumbs={false}>
           <div>
-            <img alt="postcode light" src="./images/postcode/light.png" />
+            <img loading="lazy" alt="postcode light" src="./images/postcode/light.png" />
           </div>
           <div>
-            <img alt="postcode dark" src="./images/postcode/dark.png" />
+            <img loading="lazy" alt="postcode dark" src="./images/postcode/dark.png" />
           </div>
         </Carousel>
       </Project>
@@ -134,13 +134,13 @@ function Projects() {
         </Card>
         <Carousel transitionTime="1500" useKeyboardArrows autoPlay interval="4000" infiniteLoop showThumbs={false}>
           <div>
-            <img alt="TNW Main" src="./images/TNW/Main.png" />
+            <img loading="lazy" alt="TNW Main" src="./images/TNW/Main.png" />
           </div>
           <div>
-            <img alt="TW Second" src="./images/TNW/Second.png" />
+            <img loading="lazy" alt="TW Second" src="./images/TNW/Second.png" />
           </div>
           <div>
-            <img alt="TNW Third" src="./images/TNW/third.png" />
+            <img loading="lazy" alt="TNW Third" src="./images/TNW/third.png" />
           </div>
         </Carousel>
       </Project>
@@ -165,10 +165,10 @@ function Projects() {
         </Card>
         <Carousel transitionTime="1500" useKeyboardArrows autoPlay interval="4000" infiniteLoop showThumbs={false}>
           <div>
-            <img alt="Portfolio" src="./images/portfolio/portfolio.png" />
+            <img loading="lazy" alt="Portfolio" src="./images/portfolio/portfolio.png" />
           </div>
           <div>
-            <img alt="portfolio stack" src="./images/portfolio/stack.png" />
+            <img loading="lazy" alt="portfolio stack" src="./images/portfolio/stack.png" />
           </div>
         </Carousel>
       </Project>
