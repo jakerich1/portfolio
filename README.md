@@ -1,7 +1,7 @@
 
 # Personal Portfolio
 
-[Live view](https://jakerich1.github.io/TOP-TNW/)
+[Live view](https://jakerich1.github.io/portfolio/)
 ## Tech Stack
 
 **Client:** React, Styled Components
